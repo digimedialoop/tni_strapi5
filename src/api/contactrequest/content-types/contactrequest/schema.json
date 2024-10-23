@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactrequests",
+  "info": {
+    "singularName": "contactrequest",
+    "pluralName": "contactrequests",
+    "displayName": "Contact requests"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "requestTime": {
+      "type": "datetime"
+    },
+    "requestText": {
+      "type": "text"
+    }
+  }
+}
